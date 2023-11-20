@@ -1,0 +1,114 @@
+body {
+    background-color: #0E2A36;
+    color: #00B988;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p, label {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#titulo {
+    margin-top: 30px;
+}
+#titulo h1, h2{
+    margin: 0;
+    text-align: center;
+    color: #00B988;  
+}
+section {
+    margin-top: 50px;
+    width: 640px;
+    max-width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #ECE7DD solid 1px;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+
+/*Questão 1*/
+#alinhamentoItens {
+    display: flex;
+    gap: 80px;
+    
+}
+#alinhamentoItens p {
+    font-size: 20px;
+    color: #00B988;
+}
+
+#sessao1 h2, p, label{
+    text-align: center;
+}
+#sessao1 form label{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #00B988;
+
+}
+#sessao1 form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario {
+    height: 27px;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    padding: 1px 10px;
+    color: #00B988;
+    background-color: #0E2A36;
+    border: #00B988 solid 1px;
+
+}
+select.formulario {
+    height:29px;
+}
+.btn {
+    height: 29px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    color: #00B988;
+    background-color: #0E2A36;
+    border: #00B988 solid 1px;
+    margin-top: 30px;
+
+}
+.btn:hover {
+    background-color: #00B988;
+    color: #0E2A36;
+}
+
+
+/* Logo */
+.logo_bianca {
+    gap: 5px;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    color: #00B988;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.logo_bianca img{
+    width: 40px;
+    filter: brightness(200);
+}
