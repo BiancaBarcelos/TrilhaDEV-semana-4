@@ -4,8 +4,9 @@ Resolução dos exercício relacionado a TrilhaDev da semana 4 do evento Floripa
 
 
 
+https://github.com/BiancaBarcelos/TrilhaDEV-semana-4/assets/136381822/c659ad39-a0b3-4c7f-8cb3-3647ce13b7e4
 
-COLOCAR LINK DO VIDEO
+
 
 
 As questões solicitadas para exercício foram:
@@ -42,10 +43,15 @@ Como já temos todos os elementos necessários no nosso documento HTML, precisam
 
 Algumas dicas para a realização desse script:
 Cada cálculo matemático pode ser definido dentro de uma função: soma( ), subtracao( ), divisao( ), multiplicacao( ), etc
+
 Cada função matemática pode retornar (return) o valor da operação, que deve ser atribuído a uma variável. Essa variável precisa ser inicializada no contexto global do JavaScript e ter o seu valor atribuído com base no resultado da operação
+
 Todo o algoritmo que faz a execução da lógica de escolha pode ser definido dentro de uma função realizarCalculo( )
+
 A função realizarCalculo( ) deve ser vinculada ao botão através da propriedade .onclick
+
 O algoritmo para imprimir o resultado no HTML também pode ser inserido em uma função que recebe como argumento a variável que guarda o resultado da operação matemática e insere o conteúdo no elemento HTML correspondente. Exemplo: exibirResultado( resultado )
+
 Não se esqueça de chamar a função exibirResultado no final do algoritmo realizarCalculo
 
 
